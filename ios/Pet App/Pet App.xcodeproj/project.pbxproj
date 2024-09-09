@@ -11,6 +11,7 @@
 		C16343AC2C8F903900816FC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16343AB2C8F903900816FC9 /* ContentView.swift */; };
 		C16343AE2C8F903C00816FC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16343AD2C8F903C00816FC9 /* Assets.xcassets */; };
 		C16343B12C8F903C00816FC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16343B02C8F903C00816FC9 /* Preview Assets.xcassets */; };
+		C16343BB2C8F93A400816FC9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16343BA2C8F93A400816FC9 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C16343AB2C8F903900816FC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C16343AD2C8F903C00816FC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C16343B02C8F903C00816FC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C16343BA2C8F93A400816FC9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		C16343A82C8F903900816FC9 /* Pet App */ = {
 			isa = PBXGroup;
 			children = (
+				C16343B72C8F935400816FC9 /* Authentication */,
 				C16343A92C8F903900816FC9 /* Pet_AppApp.swift */,
 				C16343AB2C8F903900816FC9 /* ContentView.swift */,
 				C16343AD2C8F903C00816FC9 /* Assets.xcassets */,
@@ -65,6 +68,30 @@
 				C16343B02C8F903C00816FC9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C16343B72C8F935400816FC9 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C16343B92C8F937B00816FC9 /* Views */,
+				C16343B82C8F936D00816FC9 /* Models */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		C16343B82C8F936D00816FC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C16343B92C8F937B00816FC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C16343BA2C8F93A400816FC9 /* LoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16343BB2C8F93A400816FC9 /* LoginView.swift in Sources */,
 				C16343AC2C8F903900816FC9 /* ContentView.swift in Sources */,
 				C16343AA2C8F903900816FC9 /* Pet_AppApp.swift in Sources */,
 			);
